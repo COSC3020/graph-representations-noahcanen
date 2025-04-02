@@ -12,3 +12,13 @@ function convertToAdjList(adjMatrix) {
     }
     return AdjList;
 }
+function convertToadjMatrix(AdjList){
+    length = AdjList.length
+    adjMatrix = Array.from(Array(length), ()=>Array(length).fill(0))
+    for(let x = 0 ; x < length ; x++){
+        for(let y of AdjList[x]){
+            adjMatrix [x][y] = 1
+        }
+    }
+    return adjMatrix;
+}
