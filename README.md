@@ -47,7 +47,7 @@ I have a for loop. Which runs for the number of vortexes so V
 I have a for loop. Inside that for loop. Which runs for the number of edges so E
 
 
-So $V*E = V*E ∈ O(V*E)$
+So $V * E = V * E ∈ O(V * E)$
 
 
 Does it depend on the number of vertices, the number of edges, or both?
