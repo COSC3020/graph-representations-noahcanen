@@ -24,7 +24,7 @@ I have a for loop. Which runs for the number of vortexes so n or V
 I have a for loop. Inside that for loop. Which runs for the number of vortexes so n or V
 
 
-So n*n = n^2 ∈ O(n^2) or  V*V = V^2 ∈ O(V^2)
+So $n * n = n^2 ∈ O(n^2)$ or  $V * V = V^2 ∈ O(V^2)$
 
 
 Does it depend on the number of vertices, the number of edges, or both?
@@ -47,7 +47,7 @@ I have a for loop. Which runs for the number of vortexes so V
 I have a for loop. Inside that for loop. Which runs for the number of edges so E
 
 
-So V*E = V*E ∈ O(V*E) 
+So $V*E = V*E ∈ O(V*E)$
 
 
 Does it depend on the number of vertices, the number of edges, or both?
